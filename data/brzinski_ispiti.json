@@ -1,0 +1,931 @@
+[
+  {
+    "id": 1,
+    "rally": {
+      "id": 1,
+      "naziv": "Croatia Rally",
+      "godina": 2026,
+      "datum_pocetka": "2026-04-08T22:00:00.000Z",
+      "datum_zavrsetka": "2026-04-11T22:00:00.000Z",
+      "lokacija": "Hrvatska"
+    },
+    "oznaka": "SD",
+    "naziv": "Shakedown",
+    "prolazak": null,
+    "datum": "2026-04-08T22:00:00.000Z",
+    "vrijeme_starta": "10:01:00",
+    "duljina_km": 3.44,
+    "podloga": "Asfalt",
+    "zupanija": null,
+    "power_stage": false,
+    "lokacija_starta": {
+      "id": 1,
+      "naziv": "Shakedown - Start",
+      "sirina": 45.3887957,
+      "duzina": 14.4139918
+    },
+    "lokacija_cilja": {
+      "id": 2,
+      "naziv": "Shakedown - Finish",
+      "sirina": 45.3918354,
+      "duzina": 14.4243343
+    },
+    "najbrzi_rezultat": null
+  },
+  {
+    "id": 2,
+    "rally": {
+      "id": 1,
+      "naziv": "Croatia Rally",
+      "godina": 2026,
+      "datum_pocetka": "2026-04-08T22:00:00.000Z",
+      "datum_zavrsetka": "2026-04-11T22:00:00.000Z",
+      "lokacija": "Hrvatska"
+    },
+    "oznaka": "SS1",
+    "naziv": "Vodice - Brest",
+    "prolazak": 1,
+    "datum": "2026-04-09T22:00:00.000Z",
+    "vrijeme_starta": "09:13:00",
+    "duljina_km": 14.12,
+    "podloga": "Asfalt",
+    "zupanija": null,
+    "power_stage": false,
+    "lokacija_starta": {
+      "id": 3,
+      "naziv": "SS 1/5 - Start",
+      "sirina": 45.4807958,
+      "duzina": 14.0561422
+    },
+    "lokacija_cilja": {
+      "id": 4,
+      "naziv": "SS 1/5 - Finish",
+      "sirina": 45.4485605,
+      "duzina": 13.9813497
+    },
+    "najbrzi_rezultat": {
+      "id": 3,
+      "vrijeme": {
+        "minutes": 7,
+        "seconds": 59,
+        "milliseconds": 700
+      },
+      "posada": {
+        "id": 1,
+        "vozac": "Elfyn Evans",
+        "suvozac": "Scott Martin"
+      }
+    }
+  },
+  {
+    "id": 4,
+    "rally": {
+      "id": 1,
+      "naziv": "Croatia Rally",
+      "godina": 2026,
+      "datum_pocetka": "2026-04-08T22:00:00.000Z",
+      "datum_zavrsetka": "2026-04-11T22:00:00.000Z",
+      "lokacija": "Hrvatska"
+    },
+    "oznaka": "SS2",
+    "naziv": "Lake Butoniga - Motovun",
+    "prolazak": 1,
+    "datum": "2026-04-09T22:00:00.000Z",
+    "vrijeme_starta": "10:11:00",
+    "duljina_km": 13.78,
+    "podloga": "Asfalt",
+    "zupanija": null,
+    "power_stage": false,
+    "lokacija_starta": {
+      "id": 5,
+      "naziv": "SS 2/6 - Start",
+      "sirina": 45.3304776,
+      "duzina": 13.918841
+    },
+    "lokacija_cilja": {
+      "id": 6,
+      "naziv": "SS 2/6 - Finish",
+      "sirina": 45.3352621,
+      "duzina": 13.8528927
+    },
+    "najbrzi_rezultat": {
+      "id": 2,
+      "vrijeme": {
+        "minutes": 7,
+        "seconds": 33,
+        "milliseconds": 900
+      },
+      "posada": {
+        "id": 1,
+        "vozac": "Elfyn Evans",
+        "suvozac": "Scott Martin"
+      }
+    }
+  },
+  {
+    "id": 6,
+    "rally": {
+      "id": 1,
+      "naziv": "Croatia Rally",
+      "godina": 2026,
+      "datum_pocetka": "2026-04-08T22:00:00.000Z",
+      "datum_zavrsetka": "2026-04-11T22:00:00.000Z",
+      "lokacija": "Hrvatska"
+    },
+    "oznaka": "SS3",
+    "naziv": "Beram - Cerovlje",
+    "prolazak": 1,
+    "datum": "2026-04-09T22:00:00.000Z",
+    "vrijeme_starta": "11:14:00",
+    "duljina_km": 23.78,
+    "podloga": "Asfalt",
+    "zupanija": null,
+    "power_stage": false,
+    "lokacija_starta": {
+      "id": 7,
+      "naziv": "SS 3/7 - Start",
+      "sirina": 45.2726228,
+      "duzina": 13.9078818
+    },
+    "lokacija_cilja": {
+      "id": 8,
+      "naziv": "SS 3/7 - Finish",
+      "sirina": 45.2799048,
+      "duzina": 14.0042488
+    },
+    "najbrzi_rezultat": {
+      "id": 6,
+      "vrijeme": {
+        "minutes": 13,
+        "seconds": 20,
+        "milliseconds": 500
+      },
+      "posada": {
+        "id": 2,
+        "vozac": "Thierry Neuville",
+        "suvozac": "Martijn Wydaeghe"
+      }
+    }
+  },
+  {
+    "id": 8,
+    "rally": {
+      "id": 1,
+      "naziv": "Croatia Rally",
+      "godina": 2026,
+      "datum_pocetka": "2026-04-08T22:00:00.000Z",
+      "datum_zavrsetka": "2026-04-11T22:00:00.000Z",
+      "lokacija": "Hrvatska"
+    },
+    "oznaka": "SS4",
+    "naziv": "Ucka",
+    "prolazak": 1,
+    "datum": "2026-04-09T22:00:00.000Z",
+    "vrijeme_starta": "12:02:00",
+    "duljina_km": 11.75,
+    "podloga": "Asfalt",
+    "zupanija": null,
+    "power_stage": false,
+    "lokacija_starta": {
+      "id": 9,
+      "naziv": "SS 4/8 - Start",
+      "sirina": 45.3170143,
+      "duzina": 14.1758335
+    },
+    "lokacija_cilja": {
+      "id": 10,
+      "naziv": "SS 4/8 - Finish",
+      "sirina": 45.3357525,
+      "duzina": 14.267879
+    },
+    "najbrzi_rezultat": {
+      "id": 9,
+      "vrijeme": {
+        "minutes": 6,
+        "seconds": 55,
+        "milliseconds": 300
+      },
+      "posada": {
+        "id": 3,
+        "vozac": "Sami Pajari",
+        "suvozac": "Marko Salminen"
+      }
+    }
+  },
+  {
+    "id": 3,
+    "rally": {
+      "id": 1,
+      "naziv": "Croatia Rally",
+      "godina": 2026,
+      "datum_pocetka": "2026-04-08T22:00:00.000Z",
+      "datum_zavrsetka": "2026-04-11T22:00:00.000Z",
+      "lokacija": "Hrvatska"
+    },
+    "oznaka": "SS5",
+    "naziv": "Vodice - Brest",
+    "prolazak": 2,
+    "datum": "2026-04-09T22:00:00.000Z",
+    "vrijeme_starta": "15:15:00",
+    "duljina_km": 14.12,
+    "podloga": "Asfalt",
+    "zupanija": null,
+    "power_stage": false,
+    "lokacija_starta": {
+      "id": 3,
+      "naziv": "SS 1/5 - Start",
+      "sirina": 45.4807958,
+      "duzina": 14.0561422
+    },
+    "lokacija_cilja": {
+      "id": 4,
+      "naziv": "SS 1/5 - Finish",
+      "sirina": 45.4485605,
+      "duzina": 13.9813497
+    },
+    "najbrzi_rezultat": {
+      "id": 8,
+      "vrijeme": {
+        "minutes": 8,
+        "seconds": 14,
+        "milliseconds": 600
+      },
+      "posada": {
+        "id": 3,
+        "vozac": "Sami Pajari",
+        "suvozac": "Marko Salminen"
+      }
+    }
+  },
+  {
+    "id": 5,
+    "rally": {
+      "id": 1,
+      "naziv": "Croatia Rally",
+      "godina": 2026,
+      "datum_pocetka": "2026-04-08T22:00:00.000Z",
+      "datum_zavrsetka": "2026-04-11T22:00:00.000Z",
+      "lokacija": "Hrvatska"
+    },
+    "oznaka": "SS6",
+    "naziv": "Lake Butoniga - Motovun",
+    "prolazak": 2,
+    "datum": "2026-04-09T22:00:00.000Z",
+    "vrijeme_starta": "16:13:00",
+    "duljina_km": 13.78,
+    "podloga": "Asfalt",
+    "zupanija": null,
+    "power_stage": false,
+    "lokacija_starta": {
+      "id": 5,
+      "naziv": "SS 2/6 - Start",
+      "sirina": 45.3304776,
+      "duzina": 13.918841
+    },
+    "lokacija_cilja": {
+      "id": 6,
+      "naziv": "SS 2/6 - Finish",
+      "sirina": 45.3352621,
+      "duzina": 13.8528927
+    },
+    "najbrzi_rezultat": {
+      "id": 5,
+      "vrijeme": {
+        "minutes": 7,
+        "seconds": 39
+      },
+      "posada": {
+        "id": 2,
+        "vozac": "Thierry Neuville",
+        "suvozac": "Martijn Wydaeghe"
+      }
+    }
+  },
+  {
+    "id": 7,
+    "rally": {
+      "id": 1,
+      "naziv": "Croatia Rally",
+      "godina": 2026,
+      "datum_pocetka": "2026-04-08T22:00:00.000Z",
+      "datum_zavrsetka": "2026-04-11T22:00:00.000Z",
+      "lokacija": "Hrvatska"
+    },
+    "oznaka": "SS7",
+    "naziv": "Beram - Cerovlje",
+    "prolazak": 2,
+    "datum": "2026-04-09T22:00:00.000Z",
+    "vrijeme_starta": "17:16:00",
+    "duljina_km": 23.78,
+    "podloga": "Asfalt",
+    "zupanija": null,
+    "power_stage": false,
+    "lokacija_starta": {
+      "id": 7,
+      "naziv": "SS 3/7 - Start",
+      "sirina": 45.2726228,
+      "duzina": 13.9078818
+    },
+    "lokacija_cilja": {
+      "id": 8,
+      "naziv": "SS 3/7 - Finish",
+      "sirina": 45.2799048,
+      "duzina": 14.0042488
+    },
+    "najbrzi_rezultat": {
+      "id": 4,
+      "vrijeme": {
+        "minutes": 13,
+        "seconds": 19,
+        "milliseconds": 800
+      },
+      "posada": {
+        "id": 2,
+        "vozac": "Thierry Neuville",
+        "suvozac": "Martijn Wydaeghe"
+      }
+    }
+  },
+  {
+    "id": 9,
+    "rally": {
+      "id": 1,
+      "naziv": "Croatia Rally",
+      "godina": 2026,
+      "datum_pocetka": "2026-04-08T22:00:00.000Z",
+      "datum_zavrsetka": "2026-04-11T22:00:00.000Z",
+      "lokacija": "Hrvatska"
+    },
+    "oznaka": "SS8",
+    "naziv": "Ucka",
+    "prolazak": 2,
+    "datum": "2026-04-09T22:00:00.000Z",
+    "vrijeme_starta": "18:04:00",
+    "duljina_km": 11.75,
+    "podloga": "Asfalt",
+    "zupanija": null,
+    "power_stage": false,
+    "lokacija_starta": {
+      "id": 9,
+      "naziv": "SS 4/8 - Start",
+      "sirina": 45.3170143,
+      "duzina": 14.1758335
+    },
+    "lokacija_cilja": {
+      "id": 10,
+      "naziv": "SS 4/8 - Finish",
+      "sirina": 45.3357525,
+      "duzina": 14.267879
+    },
+    "najbrzi_rezultat": {
+      "id": 7,
+      "vrijeme": {
+        "minutes": 6,
+        "seconds": 50,
+        "milliseconds": 200
+      },
+      "posada": {
+        "id": 3,
+        "vozac": "Sami Pajari",
+        "suvozac": "Marko Salminen"
+      }
+    }
+  },
+  {
+    "id": 10,
+    "rally": {
+      "id": 1,
+      "naziv": "Croatia Rally",
+      "godina": 2026,
+      "datum_pocetka": "2026-04-08T22:00:00.000Z",
+      "datum_zavrsetka": "2026-04-11T22:00:00.000Z",
+      "lokacija": "Hrvatska"
+    },
+    "oznaka": "SS9",
+    "naziv": "Platak",
+    "prolazak": 1,
+    "datum": "2026-04-10T22:00:00.000Z",
+    "vrijeme_starta": "08:43:00",
+    "duljina_km": 16.26,
+    "podloga": "Asfalt",
+    "zupanija": null,
+    "power_stage": false,
+    "lokacija_starta": {
+      "id": 11,
+      "naziv": "SS 9/16 - Start",
+      "sirina": 45.3690638,
+      "duzina": 14.616588
+    },
+    "lokacija_cilja": {
+      "id": 12,
+      "naziv": "SS 9/16 - Finish",
+      "sirina": 45.3862086,
+      "duzina": 14.5634286
+    },
+    "najbrzi_rezultat": {
+      "id": 19,
+      "vrijeme": {
+        "minutes": 8,
+        "seconds": 36,
+        "milliseconds": 800
+      },
+      "posada": {
+        "id": 4,
+        "vozac": "Oliver Solberg",
+        "suvozac": "Elliott Edmondson"
+      }
+    }
+  },
+  {
+    "id": 12,
+    "rally": {
+      "id": 1,
+      "naziv": "Croatia Rally",
+      "godina": 2026,
+      "datum_pocetka": "2026-04-08T22:00:00.000Z",
+      "datum_zavrsetka": "2026-04-11T22:00:00.000Z",
+      "lokacija": "Hrvatska"
+    },
+    "oznaka": "SS10",
+    "naziv": "Ravna Gora - Skrad",
+    "prolazak": 1,
+    "datum": "2026-04-10T22:00:00.000Z",
+    "vrijeme_starta": "09:41:00",
+    "duljina_km": 10.13,
+    "podloga": "Asfalt",
+    "zupanija": null,
+    "power_stage": false,
+    "lokacija_starta": {
+      "id": 13,
+      "naziv": "SS 10/15 - Start",
+      "sirina": 45.3769955,
+      "duzina": 14.923242
+    },
+    "lokacija_cilja": {
+      "id": 14,
+      "naziv": "SS 10/15 - Finish",
+      "sirina": 45.4313225,
+      "duzina": 14.9118909
+    },
+    "najbrzi_rezultat": {
+      "id": 18,
+      "vrijeme": {
+        "minutes": 5,
+        "seconds": 43
+      },
+      "posada": {
+        "id": 4,
+        "vozac": "Oliver Solberg",
+        "suvozac": "Elliott Edmondson"
+      }
+    }
+  },
+  {
+    "id": 14,
+    "rally": {
+      "id": 1,
+      "naziv": "Croatia Rally",
+      "godina": 2026,
+      "datum_pocetka": "2026-04-08T22:00:00.000Z",
+      "datum_zavrsetka": "2026-04-11T22:00:00.000Z",
+      "lokacija": "Hrvatska"
+    },
+    "oznaka": "SS11",
+    "naziv": "Generalski Stol - Zdihovo",
+    "prolazak": 1,
+    "datum": "2026-04-10T22:00:00.000Z",
+    "vrijeme_starta": "11:05:00",
+    "duljina_km": 22.48,
+    "podloga": "Asfalt",
+    "zupanija": null,
+    "power_stage": false,
+    "lokacija_starta": {
+      "id": 15,
+      "naziv": "SS 11/14 - Start",
+      "sirina": 45.3470661,
+      "duzina": 15.3594455
+    },
+    "lokacija_cilja": {
+      "id": 16,
+      "naziv": "SS 11/14 - Finish",
+      "sirina": 45.4049363,
+      "duzina": 15.2214691
+    },
+    "najbrzi_rezultat": {
+      "id": 17,
+      "vrijeme": {
+        "minutes": 13,
+        "seconds": 44,
+        "milliseconds": 900
+      },
+      "posada": {
+        "id": 4,
+        "vozac": "Oliver Solberg",
+        "suvozac": "Elliott Edmondson"
+      }
+    }
+  },
+  {
+    "id": 16,
+    "rally": {
+      "id": 1,
+      "naziv": "Croatia Rally",
+      "godina": 2026,
+      "datum_pocetka": "2026-04-08T22:00:00.000Z",
+      "datum_zavrsetka": "2026-04-11T22:00:00.000Z",
+      "lokacija": "Hrvatska"
+    },
+    "oznaka": "SS12",
+    "naziv": "Pecurkovo Brdo - Mreznicki Novaki",
+    "prolazak": 1,
+    "datum": "2026-04-10T22:00:00.000Z",
+    "vrijeme_starta": "12:03:00",
+    "duljina_km": 9.11,
+    "podloga": "Asfalt",
+    "zupanija": null,
+    "power_stage": false,
+    "lokacija_starta": {
+      "id": 17,
+      "naziv": "SS 12/13 - Start",
+      "sirina": 45.4312182,
+      "duzina": 15.5349365
+    },
+    "lokacija_cilja": {
+      "id": 18,
+      "naziv": "SS 12/13 - Finish",
+      "sirina": 45.3991398,
+      "duzina": 15.4881791
+    },
+    "najbrzi_rezultat": {
+      "id": 16,
+      "vrijeme": {
+        "minutes": 4,
+        "seconds": 49
+      },
+      "posada": {
+        "id": 4,
+        "vozac": "Oliver Solberg",
+        "suvozac": "Elliott Edmondson"
+      }
+    }
+  },
+  {
+    "id": 17,
+    "rally": {
+      "id": 1,
+      "naziv": "Croatia Rally",
+      "godina": 2026,
+      "datum_pocetka": "2026-04-08T22:00:00.000Z",
+      "datum_zavrsetka": "2026-04-11T22:00:00.000Z",
+      "lokacija": "Hrvatska"
+    },
+    "oznaka": "SS13",
+    "naziv": "Pecurkovo Brdo - Mreznicki Novaki",
+    "prolazak": 2,
+    "datum": "2026-04-10T22:00:00.000Z",
+    "vrijeme_starta": "14:12:00",
+    "duljina_km": 9.11,
+    "podloga": "Asfalt",
+    "zupanija": null,
+    "power_stage": false,
+    "lokacija_starta": {
+      "id": 17,
+      "naziv": "SS 12/13 - Start",
+      "sirina": 45.4312182,
+      "duzina": 15.5349365
+    },
+    "lokacija_cilja": {
+      "id": 18,
+      "naziv": "SS 12/13 - Finish",
+      "sirina": 45.3991398,
+      "duzina": 15.4881791
+    },
+    "najbrzi_rezultat": {
+      "id": 20,
+      "vrijeme": {
+        "minutes": 4,
+        "seconds": 47
+      },
+      "posada": {
+        "id": 5,
+        "vozac": "Takamoto Katsuta",
+        "suvozac": "Aaron Johnston"
+      }
+    }
+  },
+  {
+    "id": 15,
+    "rally": {
+      "id": 1,
+      "naziv": "Croatia Rally",
+      "godina": 2026,
+      "datum_pocetka": "2026-04-08T22:00:00.000Z",
+      "datum_zavrsetka": "2026-04-11T22:00:00.000Z",
+      "lokacija": "Hrvatska"
+    },
+    "oznaka": "SS14",
+    "naziv": "Generalski Stol - Zdihovo",
+    "prolazak": 2,
+    "datum": "2026-04-10T22:00:00.000Z",
+    "vrijeme_starta": "15:05:00",
+    "duljina_km": 22.48,
+    "podloga": "Asfalt",
+    "zupanija": null,
+    "power_stage": false,
+    "lokacija_starta": {
+      "id": 15,
+      "naziv": "SS 11/14 - Start",
+      "sirina": 45.3470661,
+      "duzina": 15.3594455
+    },
+    "lokacija_cilja": {
+      "id": 16,
+      "naziv": "SS 11/14 - Finish",
+      "sirina": 45.4049363,
+      "duzina": 15.2214691
+    },
+    "najbrzi_rezultat": {
+      "id": 15,
+      "vrijeme": {
+        "minutes": 13,
+        "seconds": 59,
+        "milliseconds": 500
+      },
+      "posada": {
+        "id": 4,
+        "vozac": "Oliver Solberg",
+        "suvozac": "Elliott Edmondson"
+      }
+    }
+  },
+  {
+    "id": 13,
+    "rally": {
+      "id": 1,
+      "naziv": "Croatia Rally",
+      "godina": 2026,
+      "datum_pocetka": "2026-04-08T22:00:00.000Z",
+      "datum_zavrsetka": "2026-04-11T22:00:00.000Z",
+      "lokacija": "Hrvatska"
+    },
+    "oznaka": "SS15",
+    "naziv": "Ravna Gora - Skrad",
+    "prolazak": 2,
+    "datum": "2026-04-10T22:00:00.000Z",
+    "vrijeme_starta": "16:23:00",
+    "duljina_km": 10.13,
+    "podloga": "Asfalt",
+    "zupanija": null,
+    "power_stage": false,
+    "lokacija_starta": {
+      "id": 13,
+      "naziv": "SS 10/15 - Start",
+      "sirina": 45.3769955,
+      "duzina": 14.923242
+    },
+    "lokacija_cilja": {
+      "id": 14,
+      "naziv": "SS 10/15 - Finish",
+      "sirina": 45.4313225,
+      "duzina": 14.9118909
+    },
+    "najbrzi_rezultat": {
+      "id": 14,
+      "vrijeme": {
+        "minutes": 5,
+        "seconds": 46,
+        "milliseconds": 900
+      },
+      "posada": {
+        "id": 4,
+        "vozac": "Oliver Solberg",
+        "suvozac": "Elliott Edmondson"
+      }
+    }
+  },
+  {
+    "id": 11,
+    "rally": {
+      "id": 1,
+      "naziv": "Croatia Rally",
+      "godina": 2026,
+      "datum_pocetka": "2026-04-08T22:00:00.000Z",
+      "datum_zavrsetka": "2026-04-11T22:00:00.000Z",
+      "lokacija": "Hrvatska"
+    },
+    "oznaka": "SS16",
+    "naziv": "Platak",
+    "prolazak": 2,
+    "datum": "2026-04-10T22:00:00.000Z",
+    "vrijeme_starta": "17:22:00",
+    "duljina_km": 16.26,
+    "podloga": "Asfalt",
+    "zupanija": null,
+    "power_stage": false,
+    "lokacija_starta": {
+      "id": 11,
+      "naziv": "SS 9/16 - Start",
+      "sirina": 45.3690638,
+      "duzina": 14.616588
+    },
+    "lokacija_cilja": {
+      "id": 12,
+      "naziv": "SS 9/16 - Finish",
+      "sirina": 45.3862086,
+      "duzina": 14.5634286
+    },
+    "najbrzi_rezultat": {
+      "id": 1,
+      "vrijeme": {
+        "minutes": 8,
+        "seconds": 49,
+        "milliseconds": 500
+      },
+      "posada": {
+        "id": 1,
+        "vozac": "Elfyn Evans",
+        "suvozac": "Scott Martin"
+      }
+    }
+  },
+  {
+    "id": 18,
+    "rally": {
+      "id": 1,
+      "naziv": "Croatia Rally",
+      "godina": 2026,
+      "datum_pocetka": "2026-04-08T22:00:00.000Z",
+      "datum_zavrsetka": "2026-04-11T22:00:00.000Z",
+      "lokacija": "Hrvatska"
+    },
+    "oznaka": "SS17",
+    "naziv": "Bribir - Novi Vinodolski",
+    "prolazak": 1,
+    "datum": "2026-04-11T22:00:00.000Z",
+    "vrijeme_starta": "08:05:00",
+    "duljina_km": 14.17,
+    "podloga": "Asfalt",
+    "zupanija": null,
+    "power_stage": false,
+    "lokacija_starta": {
+      "id": 19,
+      "naziv": "SS 17/19 - Start",
+      "sirina": 45.2136927,
+      "duzina": 14.8090912
+    },
+    "lokacija_cilja": {
+      "id": 20,
+      "naziv": "SS 17/19 - Finish",
+      "sirina": 45.1506033,
+      "duzina": 14.7910149
+    },
+    "najbrzi_rezultat": {
+      "id": 13,
+      "vrijeme": {
+        "minutes": 7,
+        "seconds": 10,
+        "milliseconds": 700
+      },
+      "posada": {
+        "id": 4,
+        "vozac": "Oliver Solberg",
+        "suvozac": "Elliott Edmondson"
+      }
+    }
+  },
+  {
+    "id": 20,
+    "rally": {
+      "id": 1,
+      "naziv": "Croatia Rally",
+      "godina": 2026,
+      "datum_pocetka": "2026-04-08T22:00:00.000Z",
+      "datum_zavrsetka": "2026-04-11T22:00:00.000Z",
+      "lokacija": "Hrvatska"
+    },
+    "oznaka": "SS18",
+    "naziv": "Alan - Senj",
+    "prolazak": 1,
+    "datum": "2026-04-11T22:00:00.000Z",
+    "vrijeme_starta": "09:05:00",
+    "duljina_km": 14.56,
+    "podloga": "Asfalt",
+    "zupanija": null,
+    "power_stage": false,
+    "lokacija_starta": {
+      "id": 21,
+      "naziv": "SS 18/20 - Start",
+      "sirina": 45.0734724,
+      "duzina": 14.9310936
+    },
+    "lokacija_cilja": {
+      "id": 22,
+      "naziv": "SS 18/20 - Finish",
+      "sirina": 44.9936029,
+      "duzina": 14.9075944
+    },
+    "najbrzi_rezultat": {
+      "id": 12,
+      "vrijeme": {
+        "minutes": 7,
+        "seconds": 3,
+        "milliseconds": 200
+      },
+      "posada": {
+        "id": 4,
+        "vozac": "Oliver Solberg",
+        "suvozac": "Elliott Edmondson"
+      }
+    }
+  },
+  {
+    "id": 19,
+    "rally": {
+      "id": 1,
+      "naziv": "Croatia Rally",
+      "godina": 2026,
+      "datum_pocetka": "2026-04-08T22:00:00.000Z",
+      "datum_zavrsetka": "2026-04-11T22:00:00.000Z",
+      "lokacija": "Hrvatska"
+    },
+    "oznaka": "SS19",
+    "naziv": "Bribir - Novi Vinodolski",
+    "prolazak": 2,
+    "datum": "2026-04-11T22:00:00.000Z",
+    "vrijeme_starta": "10:38:00",
+    "duljina_km": 14.17,
+    "podloga": "Asfalt",
+    "zupanija": null,
+    "power_stage": false,
+    "lokacija_starta": {
+      "id": 19,
+      "naziv": "SS 17/19 - Start",
+      "sirina": 45.2136927,
+      "duzina": 14.8090912
+    },
+    "lokacija_cilja": {
+      "id": 20,
+      "naziv": "SS 17/19 - Finish",
+      "sirina": 45.1506033,
+      "duzina": 14.7910149
+    },
+    "najbrzi_rezultat": {
+      "id": 11,
+      "vrijeme": {
+        "minutes": 7,
+        "seconds": 16,
+        "milliseconds": 400
+      },
+      "posada": {
+        "id": 4,
+        "vozac": "Oliver Solberg",
+        "suvozac": "Elliott Edmondson"
+      }
+    }
+  },
+  {
+    "id": 21,
+    "rally": {
+      "id": 1,
+      "naziv": "Croatia Rally",
+      "godina": 2026,
+      "datum_pocetka": "2026-04-08T22:00:00.000Z",
+      "datum_zavrsetka": "2026-04-11T22:00:00.000Z",
+      "lokacija": "Hrvatska"
+    },
+    "oznaka": "SS20",
+    "naziv": "Alan - Senj",
+    "prolazak": 2,
+    "datum": "2026-04-11T22:00:00.000Z",
+    "vrijeme_starta": "13:15:00",
+    "duljina_km": 14.56,
+    "podloga": "Asfalt",
+    "zupanija": null,
+    "power_stage": true,
+    "lokacija_starta": {
+      "id": 21,
+      "naziv": "SS 18/20 - Start",
+      "sirina": 45.0734724,
+      "duzina": 14.9310936
+    },
+    "lokacija_cilja": {
+      "id": 22,
+      "naziv": "SS 18/20 - Finish",
+      "sirina": 44.9936029,
+      "duzina": 14.9075944
+    },
+    "najbrzi_rezultat": {
+      "id": 10,
+      "vrijeme": {
+        "minutes": 7,
+        "seconds": 3,
+        "milliseconds": 300
+      },
+      "posada": {
+        "id": 4,
+        "vozac": "Oliver Solberg",
+        "suvozac": "Elliott Edmondson"
+      }
+    }
+  }
+]
