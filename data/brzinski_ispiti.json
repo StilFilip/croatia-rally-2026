@@ -16,7 +16,7 @@
     "vrijeme_starta": "10:01:00",
     "duljina_km": 3.44,
     "podloga": "Asfalt",
-    "zupanija": null,
+    "zupanija": "Primorsko-goranska",
     "power_stage": false,
     "lokacija_starta": {
       "id": 1,
@@ -49,7 +49,7 @@
     "vrijeme_starta": "09:13:00",
     "duljina_km": 14.12,
     "podloga": "Asfalt",
-    "zupanija": null,
+    "zupanija": "Istarska",
     "power_stage": false,
     "lokacija_starta": {
       "id": 3,
@@ -94,7 +94,7 @@
     "vrijeme_starta": "10:11:00",
     "duljina_km": 13.78,
     "podloga": "Asfalt",
-    "zupanija": null,
+    "zupanija": "Istarska",
     "power_stage": false,
     "lokacija_starta": {
       "id": 5,
@@ -139,7 +139,7 @@
     "vrijeme_starta": "11:14:00",
     "duljina_km": 23.78,
     "podloga": "Asfalt",
-    "zupanija": null,
+    "zupanija": "Istarska",
     "power_stage": false,
     "lokacija_starta": {
       "id": 7,
@@ -184,7 +184,7 @@
     "vrijeme_starta": "12:02:00",
     "duljina_km": 11.75,
     "podloga": "Asfalt",
-    "zupanija": null,
+    "zupanija": "Primorsko-goranska",
     "power_stage": false,
     "lokacija_starta": {
       "id": 9,
@@ -229,7 +229,7 @@
     "vrijeme_starta": "15:15:00",
     "duljina_km": 14.12,
     "podloga": "Asfalt",
-    "zupanija": null,
+    "zupanija": "Istarska",
     "power_stage": false,
     "lokacija_starta": {
       "id": 3,
@@ -274,7 +274,7 @@
     "vrijeme_starta": "16:13:00",
     "duljina_km": 13.78,
     "podloga": "Asfalt",
-    "zupanija": null,
+    "zupanija": "Istarska",
     "power_stage": false,
     "lokacija_starta": {
       "id": 5,
@@ -318,7 +318,7 @@
     "vrijeme_starta": "17:16:00",
     "duljina_km": 23.78,
     "podloga": "Asfalt",
-    "zupanija": null,
+    "zupanija": "Istarska",
     "power_stage": false,
     "lokacija_starta": {
       "id": 7,
@@ -363,7 +363,7 @@
     "vrijeme_starta": "18:04:00",
     "duljina_km": 11.75,
     "podloga": "Asfalt",
-    "zupanija": null,
+    "zupanija": "Primorsko-goranska",
     "power_stage": false,
     "lokacija_starta": {
       "id": 9,
@@ -408,7 +408,7 @@
     "vrijeme_starta": "08:43:00",
     "duljina_km": 16.26,
     "podloga": "Asfalt",
-    "zupanija": null,
+    "zupanija": "Primorsko-goranska",
     "power_stage": false,
     "lokacija_starta": {
       "id": 11,
@@ -453,7 +453,7 @@
     "vrijeme_starta": "09:41:00",
     "duljina_km": 10.13,
     "podloga": "Asfalt",
-    "zupanija": null,
+    "zupanija": "Primorsko-goranska",
     "power_stage": false,
     "lokacija_starta": {
       "id": 13,
@@ -497,7 +497,7 @@
     "vrijeme_starta": "11:05:00",
     "duljina_km": 22.48,
     "podloga": "Asfalt",
-    "zupanija": null,
+    "zupanija": "Karlovačka",
     "power_stage": false,
     "lokacija_starta": {
       "id": 15,
@@ -542,7 +542,7 @@
     "vrijeme_starta": "12:03:00",
     "duljina_km": 9.11,
     "podloga": "Asfalt",
-    "zupanija": null,
+    "zupanija": "Karlovačka",
     "power_stage": false,
     "lokacija_starta": {
       "id": 17,
@@ -586,7 +586,7 @@
     "vrijeme_starta": "14:12:00",
     "duljina_km": 9.11,
     "podloga": "Asfalt",
-    "zupanija": null,
+    "zupanija": "Karlovačka",
     "power_stage": false,
     "lokacija_starta": {
       "id": 17,
@@ -630,7 +630,7 @@
     "vrijeme_starta": "15:05:00",
     "duljina_km": 22.48,
     "podloga": "Asfalt",
-    "zupanija": null,
+    "zupanija": "Karlovačka",
     "power_stage": false,
     "lokacija_starta": {
       "id": 15,
@@ -675,7 +675,7 @@
     "vrijeme_starta": "16:23:00",
     "duljina_km": 10.13,
     "podloga": "Asfalt",
-    "zupanija": null,
+    "zupanija": "Primorsko-goranska",
     "power_stage": false,
     "lokacija_starta": {
       "id": 13,
@@ -720,7 +720,7 @@
     "vrijeme_starta": "17:22:00",
     "duljina_km": 16.26,
     "podloga": "Asfalt",
-    "zupanija": null,
+    "zupanija": "Primorsko-goranska",
     "power_stage": false,
     "lokacija_starta": {
       "id": 11,
@@ -765,7 +765,7 @@
     "vrijeme_starta": "08:05:00",
     "duljina_km": 14.17,
     "podloga": "Asfalt",
-    "zupanija": null,
+    "zupanija": "Primorsko-goranska",
     "power_stage": false,
     "lokacija_starta": {
       "id": 19,
@@ -810,7 +810,7 @@
     "vrijeme_starta": "09:05:00",
     "duljina_km": 14.56,
     "podloga": "Asfalt",
-    "zupanija": null,
+    "zupanija": "Ličko-senjska",
     "power_stage": false,
     "lokacija_starta": {
       "id": 21,
@@ -855,7 +855,7 @@
     "vrijeme_starta": "10:38:00",
     "duljina_km": 14.17,
     "podloga": "Asfalt",
-    "zupanija": null,
+    "zupanija": "Primorsko-goranska",
     "power_stage": false,
     "lokacija_starta": {
       "id": 19,
@@ -900,7 +900,7 @@
     "vrijeme_starta": "13:15:00",
     "duljina_km": 14.56,
     "podloga": "Asfalt",
-    "zupanija": null,
+    "zupanija": "Ličko-senjska",
     "power_stage": true,
     "lokacija_starta": {
       "id": 21,

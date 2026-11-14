@@ -1,0 +1,198 @@
+
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/StilFilip/croatia-rally-2026/blob/main/schema.json",
+  "title": "Croatia Rally 2026 – brzinski ispiti",
+  "description": "JSON Schema za skup podataka o brzinskim ispitima Croatia Rallyja 2026.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "integer",
+        "description": "Jedinstveni identifikator brzinskog ispita."
+      },
+      "rally": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "naziv": {
+            "type": "string"
+          },
+          "godina": {
+            "type": "integer"
+          },
+          "datum_pocetka": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "datum_zavrsetka": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "lokacija": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "naziv",
+          "godina",
+          "datum_pocetka",
+          "datum_zavrsetka",
+          "lokacija"
+        ],
+        "additionalProperties": false
+      },
+      "oznaka": {
+        "type": "string"
+      },
+      "naziv": {
+        "type": "string"
+      },
+      "prolazak": {
+        "type": ["integer", "null"]
+      },
+      "datum": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "vrijeme_starta": {
+        "type": "string"
+      },
+      "duljina_km": {
+        "type": "number"
+      },
+      "podloga": {
+        "type": "string"
+      },
+      "zupanija": {
+        "type": ["string", "null"],
+        "description": "Županija u kojoj se održava brzinski ispit."
+      },
+      "power_stage": {
+        "type": "boolean"
+      },
+      "lokacija_starta": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "naziv": {
+            "type": "string"
+          },
+          "sirina": {
+            "type": "number"
+          },
+          "duzina": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "id",
+          "naziv",
+          "sirina",
+          "duzina"
+        ],
+        "additionalProperties": false
+      },
+      "lokacija_cilja": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "naziv": {
+            "type": "string"
+          },
+          "sirina": {
+            "type": "number"
+          },
+          "duzina": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "id",
+          "naziv",
+          "sirina",
+          "duzina"
+        ],
+        "additionalProperties": false
+      },
+      "najbrzi_rezultat": {
+        "type": ["object", "null"],
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "vrijeme": {
+            "type": "object",
+            "properties": {
+              "minutes": {
+                "type": "integer"
+              },
+              "seconds": {
+                "type": "integer"
+              },
+              "milliseconds": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "minutes",
+              "seconds"
+            ],
+            "additionalProperties": false
+          },
+          "posada": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "integer"
+              },
+              "vozac": {
+                "type": "string"
+              },
+              "suvozac": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "id",
+              "vozac",
+              "suvozac"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "vrijeme",
+          "posada"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "required": [
+      "id",
+      "rally",
+      "oznaka",
+      "naziv",
+      "prolazak",
+      "datum",
+      "vrijeme_starta",
+      "duljina_km",
+      "podloga",
+      "zupanija",
+      "power_stage",
+      "lokacija_starta",
+      "lokacija_cilja",
+      "najbrzi_rezultat"
+    ],
+    "additionalProperties": false
+  }
+}

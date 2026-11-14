@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Croatia Rally 2026 – brzinski ispiti</title>
+
+    <meta name="description"
+          content="Otvoreni skup podataka o brzinskim ispitima Croatia Rallyja 2026.">
+    <meta name="author" content="Filip Stilinović">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container">
+            <h1>Croatia Rally 2026</h1>
+            <p>Otvoreni skup podataka o brzinskim ispitima</p>
+
+            <nav>
+                <a href="index.html">Početna</a>
+                <a href="datatable.html">Pregled podataka</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <section class="intro">
+            <h2>O skupu podataka</h2>
+
+            <p>
+                Skup sadrži podatke o brzinskim ispitima natjecanja
+                Croatia Rally 2026. Svaki prolazak brzinskog ispita
+                zaseban je zapis, dok je Shakedown uključen kao
+                zaseban zapis.
+            </p>
+
+            <p>
+                Podaci se čuvaju u PostgreSQL bazi, a CSV i JSON
+                datoteke generiraju se automatiziranom Node.js skriptom.
+            </p>
+
+            <a class="primary-button" href="datatable.html">
+                Pregledaj podatke
+            </a>
+        </section>
+
+        <section>
+            <h2>Preuzimanje podataka</h2>
+
+            <p>
+                Skup podataka dostupan je u dva strojno čitljiva formata:
+            </p>
+
+            <div class="download-list">
+                <a href="/data/brzinski_ispiti.csv" download>
+                    Preuzmi CSV
+                </a>
+
+                <a href="/data/brzinski_ispiti.json" download>
+                    Preuzmi JSON
+                </a>
+            </div>
+        </section>
+
+        <section>
+            <h2>Metapodaci</h2>
+
+            <table>
+                <tbody>
+                    <tr><th>Naziv</th><td>Croatia Rally 2026 – brzinski ispiti</td></tr>
+                    <tr><th>Autor</th><td>Filip Stilinović</td></tr>
+                    <tr><th>Verzija skupa</th><td>1.0.0</td></tr>
+                    <tr><th>Datum objave</th><td>2026-11-01</td></tr>
+                    <tr><th>Jezik</th><td>Hrvatski</td></tr>
+                    <tr><th>Tema</th><td>Sport, automobilizam, rally</td></tr>
+                    <tr><th>Geografsko područje</th><td>Hrvatska</td></tr>
+                    <tr><th>Vremensko razdoblje</th><td>2026.</td></tr>
+                    <tr><th>Formati</th><td>CSV, JSON</td></tr>
+                    <tr><th>Izvorna baza</th><td>PostgreSQL</td></tr>
+                    <tr><th>Licenca</th><td>CC BY 4.0</td></tr>
+                    <tr><th>Učestalost ažuriranja</th><td>Jednokratni skup; izvoz se može ponovno generirati</td></tr>
+                    <tr><th>Broj zapisa</th><td>21</td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Struktura podataka</h2>
+
+            <p>
+                Svaki zapis sadrži identifikator, naziv i oznaku
+                brzinskog ispita, prolazak, datum, vrijeme starta,
+                duljinu, podlogu, županiju i podatak o Power Stageu.
+            </p>
+
+            <p>
+                Zapisi uključuju i podatke o početnoj i završnoj
+                lokaciji, GPS koordinatama te najbržem rezultatu
+                i pripadajućoj posadi.
+            </p>
+        </section>
+
+        <section>
+            <h2>Povezanost podataka</h2>
+
+            <p>
+                Jedan rally obuhvaća više brzinskih ispita.
+                Svaki ispit povezan je s lokacijom starta i cilja.
+                Ispit može imati najbrži rezultat, koji je povezan
+                s posadom (vozačem i suvozačem).
+            </p>
+
+            <p>
+                JSON prikazuje povezane podatke ugniježđeno,
+                dok CSV podatke prikazuje u zasebnim stupcima.
+            </p>
+        </section>
+
+        <section>
+            <h2>Ograničenja skupa podataka</h2>
+
+            <p>
+                Skup prikazuje podatke unesene u pripadajuću bazu.
+                Vrijednost null za najbrži rezultat znači da rezultat
+                nije evidentiran. Skup nije nužno cjelovita službena
+                arhiva svih podataka natjecanja.
+            </p>
+        </section>
+
+        <section>
+            <h2>Licenca</h2>
+
+            <p>
+                Skup se objavljuje pod licencom
+                <a href="https://creativecommons.org/licenses/by/4.0/">
+                    Creative Commons Imenovanje 4.0 International (CC BY 4.0)
+                </a>.
+                Pri korištenju potrebno je navesti autora i izvor
+                te poveznicu na licencu.
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2026. Croatia Rally 2026 – otvoreni skup podataka</p>
+            <p>Autor: Filip Stilinović</p>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -2,10 +2,16 @@
   "name": "croatia-rally-dataset",
   "version": "1.0.0",
   "private": true,
-  "scripts": { "export": "node scripts/export.js" },
+  "scripts": {
+    "export": "node scripts/export.js",
+    "start": "node server.js"
+  },
   "dependencies": {
+    "ajv": "^8.20.0",
+    "ajv-formats": "^3.0.1",
     "csv-stringify": "^6.5.2",
-    "dotenv": "^16.4.5",
-    "pg": "^8.13.1"
+    "dotenv": "^16.6.1",
+    "express": "^5.3.0",
+    "pg": "^8.23.1"
   }
 }

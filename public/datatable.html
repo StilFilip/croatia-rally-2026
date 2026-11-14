@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tablica podataka – Croatia Rally 2026</title>
+    <meta name="description" content="Pregled i filtriranje podataka o brzinskim ispitima Croatia Rallyja.">
+    <meta name="author" content="Filip Stilinović">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Brzinski ispiti – Croatia Rally</h1>
+
+        <nav>
+            <a href="index.html">Početna stranica</a>
+            <a href="datatable.html">Tablica podataka</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Pretraživanje podataka</h2>
+
+            <form id="filter-form">
+                <label for="search-input">Pojam za pretraživanje:</label>
+
+                <input
+                    type="text"
+                    id="search-input"
+                    placeholder="Unesite pojam..."
+                >
+
+                <label for="attribute-select">Pretraži atribut:</label>
+
+                <select id="attribute-select">
+                    <option value="svi">Svi atributi</option>
+                    <option value="rally">Rally</option>
+                    <option value="naziv">Naziv brzinskog ispita</option>
+                    <option value="oznaka">Oznaka</option>
+                    <option value="podloga">Podloga</option>
+                    <option value="zupanija">Županija</option>
+                    <option value="vozac">Vozač</option>
+                </select>
+
+                <button type="submit">Pretraži</button>
+                <button type="button" id="clear-button">Očisti filter</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Rezultati pretraživanja</h2>
+
+            <p id="result-count">Učitavanje podataka...</p>
+
+            <div class="download-links">
+                <button type="button" id="download-csv">
+                    Preuzmi filtrirane podatke (CSV)
+                </button>
+
+                <button type="button" id="download-json">
+                    Preuzmi filtrirane podatke (JSON)
+                </button>
+            </div>
+
+            <div style="overflow-x: auto; margin-top: 20px;">
+                <table id="data-table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Rally</th>
+                            <th>Godina</th>
+                            <th>Oznaka</th>
+                            <th>Naziv</th>
+                            <th>Prolazak</th>
+                            <th>Datum</th>
+                            <th>Vrijeme starta</th>
+                            <th>Duljina (km)</th>
+                            <th>Podloga</th>
+                            <th>Županija</th>
+                            <th>Power Stage</th>
+                            <th>Start lokacija</th>
+                            <th>Start širina</th>
+                            <th>Start dužina</th>
+                            <th>Cilj lokacija</th>
+                            <th>Cilj širina</th>
+                            <th>Cilj dužina</th>
+                            <th>Najbrže vrijeme</th>
+                            <th>Vozač</th>
+                            <th>Suvozač</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="table-body">
+                        <tr>
+                            <td colspan="21">Učitavanje podataka...</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Skup podataka: Croatia Rally 2026 – brzinski ispiti</p>
+    </footer>
+
+    <script src="datatable.js"></script>
+</body>
+</html>
